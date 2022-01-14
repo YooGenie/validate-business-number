@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2b048862-38e7-4a18-8ae0-bedd1dfa655d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validate.go" beforeDir="false" afterPath="$PROJECT_DIR$/validateBusinessNumber.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validate_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/validateBusinessNumber_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build validate.go">
+    <configuration name="go build validate.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="validate-business-number" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/validate.go" />
+      <package value="validate-business-number" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build validate.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="validate-business-number" />
       <working_directory value="$PROJECT_DIR$" />
@@ -81,17 +90,6 @@
       <pattern value="^\QTestValidateBusinessNumber_10자리아닌경우\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestValidateBusinessNumber_Ok in Menu/validate-business-number" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="validate-business-number" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="Menu/validate-business-number" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestValidateBusinessNumber_Ok\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestValidateBusinessNumber_Ok in validate-business-number" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="validate-business-number" />
       <working_directory value="$PROJECT_DIR$" />
@@ -106,10 +104,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build validate.go" />
+        <item itemvalue="Go Build.go build validate.go (1)" />
         <item itemvalue="Go Test.TestValidateBusinessNumber_Ok in validate-business-number" />
         <item itemvalue="Go Test.TestValidateBusinessNumber_유효한번호아닌경우 in validate-business-number" />
         <item itemvalue="Go Test.TestValidateBusinessNumber_10자리아닌경우 in validate-business-number" />
-        <item itemvalue="Go Test.TestValidateBusinessNumber_Ok in Menu/validate-business-number" />
       </list>
     </recent_temporary>
   </component>

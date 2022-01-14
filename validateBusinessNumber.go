@@ -1,4 +1,4 @@
-package validate_business_number
+package validateBusinessNumber
 
 import "strconv"
 

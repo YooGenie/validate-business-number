@@ -1,4 +1,4 @@
-package validate_business_number
+package validateBusinessNumber
 
 import (
 	"github.com/stretchr/testify/assert"
