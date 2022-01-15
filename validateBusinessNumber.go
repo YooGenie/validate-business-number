@@ -1,8 +1,8 @@
-package validate_business_number
+package validate
 
 import "strconv"
 
-func ValidateBusinessNumber(bisNo string) bool {
+func BusinessNumber(bisNo string) bool {
 	var arrCheckNum = []int{1, 3, 7, 1, 3, 7, 1, 3, 5}
 
 	sum := 0
