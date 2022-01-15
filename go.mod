@@ -1,4 +1,4 @@
-module validate-business-number
+module github.com/YooGenie/validate-business-number
 
 go 1.16
 

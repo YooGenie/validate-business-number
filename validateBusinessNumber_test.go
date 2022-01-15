@@ -1,9 +1,10 @@
-package validateBusinessNumber
+package validate_business_number
 
 import (
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
+
 
 func TestValidateBusinessNumber_10자리아닌경우(t *testing.T) {
 	//given
