@@ -1,8 +1,12 @@
 package validate
 
-import "strconv"
+import (
+	"strconv"
+	"strings"
+)
 
 func BusinessNumber(bisNo string) bool {
+	bisNo = strings.Replace(bisNo, "-", "", 2)
 	var arrCheckNum = []int{1, 3, 7, 1, 3, 7, 1, 3, 5}
 
 	sum := 0
@@ -27,4 +31,3 @@ func BusinessNumber(bisNo string) bool {
 	}
 
 }
-

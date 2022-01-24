@@ -35,3 +35,11 @@ func TestValidateBusinessNumber_Ok(t *testing.T) {
 	assert.Equal(t, true, actual)
 }
 
+func TestValidateBusinessNumber_하이픈있을때(t *testing.T) {
+	//given
+	a := "201-81-21515"
+	//when
+	actual :=  BusinessNumber(a)
+	//then
+	assert.Equal(t, true, actual)
+}
