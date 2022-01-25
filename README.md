@@ -8,8 +8,19 @@ go get -u github.com/YooGenie/validate-business-number
 
 # Description
 
-사업자 번호넣어서 호출하면 false, true 값으로 옵니다
+* 사업자 번호 입력만 해서 유효성 검사(bisNo 숫자 10자리 입력)
 ```
-check := validate.BusinessNumber("1234567890")
+func BusinessNumber(bisNo string) bool {
+    return bool
+	}
+```
+사업자 번호넣어서 호출하면 false, true 값으로 옵니다
+
+# 사용법
+```
+validate.BusinessNumber("1234567890")
+
 ```
 
+# UPDATE
+2022-01-25 v0.0.2 #하이픈 제거하기
