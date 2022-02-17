@@ -17,7 +17,7 @@ func BusinessNumber(bisNo string) bool {
 		}
 		t, _ := strconv.Atoi(string(bisNo[8]))
 		sum += (t * arrCheckNum[8]) / 10
-		sum = 10 - (sum % 10)
+		sum = (10 - (sum % 10)) % 10
 
 		lastNum, _ := strconv.Atoi(string(bisNo[9]))
 

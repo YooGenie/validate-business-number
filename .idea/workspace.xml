@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b048862-38e7-4a18-8ae0-bedd1dfa655d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/validateBusinessNumber.go" beforeDir="false" afterPath="$PROJECT_DIR$/validateBusinessNumber.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/validateBusinessNumber_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/validateBusinessNumber_test.go" afterDir="false" />
     </list>
@@ -48,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bsit\go\src\study\validate-business-number" />
       <recent name="C:\Users\bsit\go\src\Menu\validate-business-number" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
